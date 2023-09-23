@@ -28,7 +28,7 @@
             Console.WriteLine("Testing split.");
             Console.WriteLine("String to split: \"Hello how are you doing hello hello it is a nice day\"");
             Console.WriteLine("Tokens to split by: \"you\", \"how\" and \"doing\"");
-            Console.WriteLine("Test keep empty spaces:");
+            Console.WriteLine("Test keep empty tokens:");
             
             List<string> list = Str.Split("Hello how are you doing hello hello it is a nice day", false, false, arr);
             foreach (string s in list)
